@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Group?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="javafx_04.Controller">
+   <Label fx:id="label" layoutX="20" layoutY="20" />
+   <Button text="Press me" onAction="#buttonPressed" layoutX="20" layoutY="60"  />
+   <Button text="Reset" onAction="#reset" layoutX="100" layoutY="60" />
+</Group>
+

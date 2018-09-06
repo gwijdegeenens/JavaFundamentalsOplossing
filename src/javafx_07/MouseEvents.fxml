@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.canvas.Canvas?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+   fx:controller="javafx_07.MouseEventsController">
+   <center>
+      <Canvas width="300" height="200" onMouseMoved="#mouseMoved" onMouseClicked="#mouseClicked" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" />
+   </center>
+   <bottom>
+      <Text fx:id="text" />
+   </bottom>
+</BorderPane>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.TextArea?>
+<VBox fx:id="pane" xmlns:fx="http://javafx.com/fxml" fx:controller="javafx_10.Controller">
+   <MenuBar>
+      <menus>
+         <Menu text="File">
+            <items>
+               <MenuItem text="Open" onAction="#fileOpen"/>
+               <MenuItem text="Save" onAction="#fileSave"/>
+               <SeparatorMenuItem />
+               <MenuItem text="Exit" onAction="#exit" />
+            </items>
+         </Menu>
+         <Menu text="Help">
+            <items>
+               <MenuItem text="About" onAction="#showAbout" />
+            </items>
+         </Menu>
+      </menus>
+   </MenuBar>
+   <TextArea fx:id="textArea" prefHeight="1000"  />
+</VBox>
+

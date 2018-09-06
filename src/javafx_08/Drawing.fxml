@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.canvas.Canvas?>
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+   fx:controller="javafx_08.DrawingController">
+   <center>
+      <ScrollPane>
+         <Canvas width="500" height="500" fx:id="canvas"
+            onMouseDragged="#mouseDragged" onMousePressed="#mousePressed"
+            onMouseReleased="#mouseReleased" />
+      </ScrollPane>
+   </center>
+   <bottom>
+      <FlowPane hgap="5">
+         <Button text="Clear" onAction="#clear" />
+      </FlowPane>
+   </bottom>
+</BorderPane>
+
