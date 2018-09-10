@@ -2,10 +2,15 @@ package streams_02;
 
 import java.util.*;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class IntReduceApp {
 
 	public static void main(String[] args) {
+		Integer[] numbersKlas = {5,7,2,9,7,4};
+		System.out.println(Stream.of(numbersKlas).count());
+
+
 		int[] numbers = {5,7,2,9,7,4};
 		
 		long count = IntStream.of(numbers)
